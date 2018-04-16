@@ -1,0 +1,54 @@
+{
+    "title": "xHub",
+    "author": "Steve Lee",
+    "styles": {
+        "website": "./res/website.css",
+        "pdf": "./res/pdf.css"
+    },
+    "plugins": [
+        "-sharing",
+        "custom-favicon",
+        "signature",
+        "expandable-chapters",
+        "navigator",
+        "youtubex",
+        "sectionx",
+        "mcqx",
+        "fbqx",
+        "ace",
+        "spoiler",
+        "flowchart",
+        "layout",
+        "local-video",
+        "mermaid",
+        "image-captions",
+        "mermaid"
+    ],
+    "pluginsConfig": {
+        "link-fixer": {
+            "link": "http://icxhub.com/"
+        },
+        "favicon": "./res/chip_cot.ico",
+        "layout": {
+            "headerPath": "./res/header.html",
+            "footerPath": "./res/footer.html"
+        },
+        "image-captions": {
+            "caption": "_PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_"
+        },
+        "gitbook-plugin-signature": {
+            "autoTimeStamp": {
+                "color": "gray",
+                "timeStampFormat": "MM/DD/YYYY HH:mm:ss"
+            },
+            "autoCopyright": {
+                "color": "gray",
+                "owner": "<a href='http://icxhub.com' target='_blank'>xHub</a>",
+                "center": true
+            },
+            "signature": {
+                "cot": "Provide by icxhub"
+            }
+        }
+    }
+}
