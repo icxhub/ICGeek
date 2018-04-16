@@ -45,7 +45,7 @@ EDA软件对Tcl的支持现在都已经到8.6了，由于其扩展性好，调�
 |April 1999|Tcl 8.1 introduces full Unicode support and advanced regular expressions.|
 |August 1999|Tcl 8.2 introduces Tcl Extension Architecture (TEA)|
 |August 2000|Tcl Core Team formed, moving Tcl to a more community-oriented development model.|
-|September 2002|Ninth Tcl/Tk conference (Vancouver). Announcement of starkit packaging| system. Tcl 8.4.0 released.|
+|September 2002|Ninth Tcl/Tk conference (Vancouver). Announcement of starkit packaging system. Tcl 8.4.0 released.|
 |December 2007|Tcl 8.5 added new datatypes, a new extension repository, bignums, lambdas.|
 |December 2012|Tcl 8.6 added built-in dynamic object system, TclOO, and stackless evaluation.|
 
