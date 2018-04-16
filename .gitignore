@@ -25,3 +25,4 @@ vendor
 ## ignore reference
 res/ref
 build.cmd
+build/icgeek.html
