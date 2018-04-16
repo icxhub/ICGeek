@@ -28,7 +28,7 @@ Tcl 最初的构想的是希望把编程按照基于组件的方法 (component a
 Tk (Tool Kit) 是基于 Tcl 的图形程序开发工具箱, 是 Tcl 的重要扩展部分。Tk 隐含许多 C/C++ 程序员需要了解的程序设计细节, 可快速地开发基于图形界面 Windows 的程序。据称, 用 Tcl/Tk 开发一个简单的 GUI 应用程序只需几个小时, 比用 C/C++ 要提高效率十倍。需要指明的是这里所说的“窗口”是指 Tcl 定义的窗口，与 X-Windows 与 MS Windows 的定义有所不同，但它可完美地运行在以上两个系统上。
 
 <!-- 源文件： <root>/res/tcl_structure.dia -->
-![Tcl Structure， 基于“参考2” 重画](./res/tcl_structure.png)
+![Tcl Structure， 基于“参考2” 重画](../res/tcl_structure.png)
 
 从图中我们可以了解到有个概念很重要，你输入到Tcl的所有交互的指令或者其他接口都被认为是文本，按一定的顺序进行parser。
 
