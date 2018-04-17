@@ -6,7 +6,7 @@
 
 [Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)](https://creativecommons.org/licenses/by-nd/4.0/)
 
-专栏内容已接入原本链原创认证。
+专栏内容已接入 "[原本链](https://yuanbenlian.com/)" 原创认证。
 
 ---
 
