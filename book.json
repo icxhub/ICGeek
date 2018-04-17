@@ -2,13 +2,16 @@
     "title": "xHub",
     "author": "Steve Lee",
     "styles": {
-        "website": "./res/website.css",
-        "pdf": "./res/pdf.css"
+        "website": "./styles/website.css",
+        "pdf": "./styles/pdf.css"
     },
     "plugins": [
         "-sharing",
         "custom-favicon",
         "-signature",
+        "-fontsettings",
+        "-theme-default",
+        "anchor-navigation-ex",
         "expandable-chapters",
         "navigator",
         "youtubex",
@@ -22,7 +25,8 @@
         "local-video",
         "mermaid",
         "image-captions",
-        "mermaid"
+        "mermaid",
+        "hide-published-with"
     ],
     "pluginsConfig": {
         "link-fixer": {
