@@ -1,8 +1,12 @@
 # IC 为何偏恋三十而立的Tcl
 
+---
+
 ![52HS9DF0](https://yb-img.oss-cn-shanghai.aliyuncs.com/badges/52HS9DF0K8FQK8FATRFMLISDTO1HT6XY6H9CZETZI8P281G6GG.png)
 
 本文经「原本」原创认证，访问[yuanben.io](http://yuanben.io/)查询[【52HS9DF0】](https://yuanben.io/article/52HS9DF0K8FQK8FATRFMLISDTO1HT6XY6H9CZETZI8P281G6GG)获取授权信息。
+
+---
 
 <!-- SteveB Checklist：
 1. 是否设计有互动环节（done）
@@ -123,7 +127,7 @@ EDA软件对Tcl的支持现在都已经到8.6了，由于其扩展性好，调�
 
 ## 三十而立的Tcl 为何依然发光发热
 
-<!--表达作者的主要观点，本文的第一个重点.-->
+<!--表达我的主要观点，本文的第一个重点.-->
 
 看点：**优点并不是任何场合都适用的，天天和IC、Tcl 打交道的你看看我对Tcl 优点的总结。**
 
@@ -181,6 +185,7 @@ Tcl 通过http 包可以方便地进行网络访问，大家可能有用python �
 
 我曾经对物理设计的职位做过词频统计，去除了一些语法词以后，Physical 当然出现最高，Tcl、Perl 的频率也排在前列。
 
+<!-- 图片纯装饰 -->
 ![Programming Languages](../res/img/programminglanguages.png)
 
 * Tcl
@@ -203,6 +208,7 @@ Lisp 虽然复杂，虽然我也没用过，但是我了解它函数式的特性
 
 总的来说，挑一本Tcl 的书，从前往后看，你就能掌握Level 1 到Level 3，当然光看不行，还要动手实践。在你到Level 3 以后，相信你自己已经有很多Tcl 的脚本积累了（如何积累，以及管理这些积累也是一个比较大的话题）。
 
+<!-- 图片目的： 横向视觉可以一次把内容看完，如果不加这张图，用行文的方式，竖向视觉缺少整体感。-->
 ![3 Levels](../res/img/3levels.png)
 
 Level 1：和EDA 工具打交道
@@ -243,6 +249,7 @@ Tk有一个Bwidget 的Package，所有都是用标准的Tk 组件编写一个扩
 
 Tcl 用来实现基本的逻辑功能，应用；Expect 用来解决自动化中的交互；Tk 用来编写界面。你想造一个自己的系统用Tcl 系的程序语言就可以实现了。
 
+<!-- 图片目的：亮点是中间那部分，CAD System Driven 以及Tcl，引起读者注意。 -->
 ![Tcl System](../res/img/cad_sys.png)
 
 通过学习Tcl/TK/Expect：
@@ -278,12 +285,14 @@ Tcl 用来实现基本的逻辑功能，应用；Expect 用来解决自动化中
 
 sqlite IDE，这个是对sqli数据编写的一个很好的工具，是学习数据库访问的一个的很好地实例。
 
+<!-- 一图抵千字 -->
 ![TKSqlite](../res/img/tksqlite.png)
 
 ### tkinspect
 
 TK inspect tool，这个程序可以分析自己编写的TK 的各个namespace，各个component，这个tool 是Tk应用交互的一个很好的实例。
 
+<!-- 一图抵千字 -->
 ![tkinspect](../res/img/tkinspect.png)
 
 ## 文末思考题

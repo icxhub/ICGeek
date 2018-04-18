@@ -1,5 +1,7 @@
 # 开刊词
 
+---
+
 ![4WAIVGUZ](https://yb-img.oss-cn-shanghai.aliyuncs.com/badges/4WAIVGUZXR441UZDOVWNMQVUFJSXJ4PD10CF65OEDZNWM2VRV4.png)
 
 本文经「原本」原创认证，访问[yuanben.io](http://yuanben.io/)查询[【4WAIVGUZ】](https://yuanben.io/article/4WAIVGUZXR441UZDOVWNMQVUFJSXJ4PD10CF65OEDZNWM2VRV4)获取授权信息。
