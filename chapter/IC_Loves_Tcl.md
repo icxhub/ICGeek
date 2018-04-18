@@ -271,17 +271,18 @@ Tcl 用来实现基本的逻辑功能，应用；Expect 用来解决自动化中
 * Tcl 的粘合剂作用可以方便的将不同的可执行程序拼接起来。
 * Tcl 命令和数据基本可以混用，方便数据和命令在同一程序中混合。
 * 基于上面一点，命令可以是字符串，是数据也是命令，方便应对各种变数。
-* 逻辑层和数据层分开。
+* 逻辑层可以方便得与数据层分开（软件设计思想方面，Tcl 可以应对当下的各种流行场景）。
+* ...
 
 ## Tcl 优势的几个实例推荐
 
-有几个常用的TK 工具，很好用的工具，同时它的源代码也值得一看。由于本章节更偏重实践，所以微信中为节选，可查看原文获取完整内容。
+有些常用的TK 工具，很好用的工具，同时它的源代码也值得一看。由于本章节更偏重实践，这里只做推荐。
 
 <!-- 几个Tk 程序的例子 -->
 
 ### tksqlite
 
-sqlite IDE，这个是对sqli数据编写的一个很好的工具，是学习数据库访问的一个的很好地实例。
+sqlite IDE，这个是对sqlite 数据编写的一个很好的工具，是学习数据库访问和处理的一个很好的实例。
 
 <!-- 一图抵千字 -->
 ![TKSqlite](../res/img/tksqlite.png)
@@ -295,7 +296,7 @@ TK inspect tool，这个程序可以分析自己编写的TK 的各个namespace�
 
 ## 文末思考题
 
-Tcl 的好处我也鼓吹那么多了，那么如果你有一个私人Support 团队，CAD 团队为你服务，
+Tcl 的好处我也鼓吹那么多了，现在如果你有一个私人Support 团队，CAD 团队为你服务，
 
 你希望有一个什么最能解决你当前问题的Tcl 脚本或应用？大家可以留言讨论或者入群讨论。
 
@@ -306,7 +307,8 @@ Tcl 的好处我也鼓吹那么多了，那么如果你有一个私人Support �
 
 ## 参考内容
 
-* SteveB 笔记
+* Steve 笔记
+  * Steve 知乎ICCAD 专栏 [https://zhuanlan.zhihu.com/iccad](https://zhuanlan.zhihu.com/iccad)
 * 《Tcl & the Tk Toolkit》
 * 《Tcl/Tk : a developer’s guide》
 * 《Practical Programming in Tcl and Tk》
