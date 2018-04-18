@@ -1,52 +1,65 @@
-# <span style="color:rgb(122,187,236);font-weight:800;"> IC 为何偏恋三十而立的Tcl</span>
+# IC 为何偏恋三十而立的Tcl
+
+<!-- SteveB Checklist：
+1. 是否设计有互动环节（done）
+2. 是否用图表代替某些复杂的描述（TBD）
+    a. 表格（done）
+    b. chart（TBD）
+3. 引导读者读完全文（done）
+    a. 文首列出看点（done）
+4. 标题文字配色（TBD）
+5. 干货Highlight，增强可读性（TBD）
+6. 用断句，短句对特殊词汇解释（TBD）
+7. 列出参考资料（done）
+-->
 
 Tcl，发音做"tickle"，是Tool Command Language的首字母缩写。
 
 有些编程语言单独看起来并没有优势，脱离开应用场景后甚至可以说是一门即将被淘汰的语言，这一篇我们来看看Tcl 没有被淘汰、没有被取代的原因在哪里（我认为单独来看Tcl优势很弱）。
 
-2018，Tcl 诞生已经三十个年头了，它依然做为IC 设计的主力语言存在着，为什么IC 偏偏恋上了Tcl，本文就Tcl 这门语言的特点谈谈我对这个话题的看法，用开放的心态看待Tcl。
+2018，Tcl 诞生已经三十个年头了，它依然做为IC 设计的主力语言存在着，为什么IC 偏偏恋上了Tcl，本文就Tcl 这门语言的特点谈谈我对这个话题的看法，用开放的心态聊聊Tcl。
 
 如果你希望了解更多程序语言发明大牛对Tcl 和其他一些程序有趣的论战，可以去搜索 “Tcl War”。
 
 * **__第一部分有一个Tcl 的小测验，看看你可以得几分，了解你和Tcl 的亲密度。__**
-    * 槽点：要不要评论回复下你的分数 :)
+  * 槽点：要不要评论回复下你的分数 :)
 * **__第二部分细数了Tcl 的优点和不足，快而立之年的Tcl 为何依然在IC 中发光发亮。__**
-    * 看点：了解Tcl 语言产生的背景、历史与演变或许可以给我们一点启发，我们为什么还在用它。
+  * 看点：了解Tcl 语言产生的背景、历史与演变或许可以给我们一点启发，我们为什么还在用它。
 * **__第三部分我会介绍一些我的经验，我心目中好的IC Tcl 程序的特点以及展示几个实例。__**
-    * 看点：一点学习Tcl 的体会，即使你厌恶编程，为了提高效率，为了绩效，为了工资，为了面试，你应该看一眼。
-    * 看点：只用Tcl、Tk、Expect 也可以创造一个自己的IC 黑客帝国。
+  * 看点：一点学习Tcl 的体会，即使你厌恶编程，为了提高效率，为了绩效，为了工资，为了面试，你应该看一眼。
+  * 亮点：只用Tcl、Tk、Expect 也可以创造一个自己的IC 黑客帝国。
 
 ## 测一测你对Tcl 的了解
 
 如果不知道或者回答否则不得分，回答是或者知道得1分。6-8分及以上说明你对Tcl 的了解还是不错的。
 
-__不管你得几分，不管你是不是喜欢Tcl 这篇文章可以给你一些故事和建议。__
+* __不管你得几分，不管你是不是喜欢Tcl - 这篇文章都可以给你一些故事和建议。__
 
-1. 哪家EDA 工具的Tcl Shell和Unix 上原生Tcl Shell哪个好用？
-1. 你是否（**熟练使用**）下面全部的命令（1）？
+1. 多家EDA 工具的Tcl Shell和Unix 上原生Tcl Shell，你（**觉得**）哪个好用？
+2. 你是否（**熟练使用**）下面全部的命令（1）？
     * set
     * puts
     * array
     * source
     * if/switch
     * for/foreach
-2. 你是否（**熟练使用**）下面全部的命令（2）？
+3. 你是否（**熟练使用**）下面全部的命令（2）？
     * open
     * file
     * regexp
     * proc
     * clock
-5. 你是否（**写过**）procedure？
-3. 你是否（**用过**）Pakcage，标准库的Package或者其他人写的Package？
-4. 你是否（**写过**）Package，并知道它如何被使用？
-5. 你（**用过**）dict 这种数据结构吗？
-7. 你（**知道**）namespace 和它的用法？
-6. 你（**用过**）interp 这个命令吗？
+4. 你是否（**写过**）procedure？
+5. 你是否（**用过**）Pakcage，标准库的Package或者其他人写的Package？
+6. 你是否（**写过**）Package，并知道它如何被使用？
+7. 你（**用过**）dict 这种数据结构吗？
+8. 你（**知道**）namespace 和它的用法？
+9. 你（**用过**）interp 这个命令吗？
 10. 你（**知道**）Tcl 如何Trace 吗？
-9. 你（**知道**）有个TK 库Bwidget？
-8. 你是否（**知道**）如何获取http 数据？
-9. 你是否（**用过**）wait 和send 相关的命令？
-10. 你（**编写**）过C 语言功能并在tcl 中load 吗？
+11. 你（**知道**）有个TK 库Bwidget？
+12. 你是否（**知道**）如何获取http 数据？
+13. 你是否（**用过**）wait 和send 相关的命令？
+14. 你（**编写**）过C 语言功能并在tcl 中load 吗？
 
 ## Tcl 的诞生历史
 
@@ -143,7 +156,7 @@ Tcl 的Package 和其他程序语言的库都是很像的，而且Tcl 自身也�
 
 Tcl 通过http 包可以方便地进行网络访问，大家可能有用python 或者任何其他语言做爬虫的经验，Tcl 也是可以的，但是如果用在IC 上，用在系统的构建上，这个能力也是不可或缺的。
 
-## IC 工程师为何要熟悉Tcl 以及其他脚本语言
+## IC 工程师为何要熟悉Tcl 等脚本语言
 
 <!--从JD 谈起，如何自查tcl 水平和提高Tcl 编程能力。
 本文的第二个重点。
@@ -197,6 +210,6 @@ TK inspect tool
 * 《Tcl & the Tk Toolkit》
 * 《Tcl/Tk : a developer’s guide》
 * 《Practical Programming in Tcl and Tk》
-* http://www.wikiwand.com/en/Scripting_language
-* https://blog.csdn.net/larryliuqing/article/details/20902181
-* http://scc.qibebt.cas.cn/docs/linux/script/TclTkall.pdf
+* [http://www.wikiwand.com/en/Scripting_language](http://www.wikiwand.com/en/Scripting_language)
+* [https://blog.csdn.net/larryliuqing/article/details/20902181](https://blog.csdn.net/larryliuqing/article/details/20902181)
+* [http://scc.qibebt.cas.cn/docs/linux/script/TclTkall.pdf](http://scc.qibebt.cas.cn/docs/linux/script/TclTkall.pdf)
