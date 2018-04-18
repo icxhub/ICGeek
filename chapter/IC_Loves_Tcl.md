@@ -272,7 +272,7 @@ Tcl 用来实现基本的逻辑功能，应用；Expect 用来解决自动化中
 
 ### tksqlite
 
-sqlite IDE，这个是对数据编写的一个很好地例子，是学习数据库访问的一个的很好地实例。
+sqlite IDE，这个是对sqli数据编写的一个很好的工具，是学习数据库访问的一个的很好地实例。
 
 ![TKSqlite](../res/img/tksqlite.png)
 
@@ -281,6 +281,12 @@ sqlite IDE，这个是对数据编写的一个很好地例子，是学习数据�
 TK inspect tool，这个程序可以分析自己编写的TK 的各个namespace，各个component，这个tool 是Tk应用交互的一个很好的实例。
 
 ![tkinspect](../res/img/tkinspect.png)
+
+## 文末思考题
+
+Tcl 的好处我也鼓吹那么多了，那么如果你有一个AE 团队，CAD 团队为你服务，
+
+你希望有一个什么最能解决你当前问题的Tcl 脚本？大家可以留言讨论或者入群讨论。
 
 <!-- Reference in new page -->
 <p style="page-break-after:always;"></p>
