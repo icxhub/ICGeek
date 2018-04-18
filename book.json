@@ -1,11 +1,14 @@
 {
     "title": "xHub",
-    "author": "Steve Lee",
+    "author": "Steve Bee",
+    "language": "zh",
     "styles": {
         "website": "./styles/website.css",
         "pdf": "./styles/pdf.css"
     },
     "plugins": [
+        "yahei",
+        "katex",
         "-sharing",
         "custom-favicon",
         "-signature",
@@ -38,7 +41,15 @@
             "footerPath": "./res/footer.html"
         },
         "image-captions": {
-            "caption": "_PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_"
+            "caption": "_PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_",
+            "images": {
+                "1.2.1": {
+                    "skip": true
+                },
+                "1.3.1.1": {
+                    "skip": true
+                }
+            }
         },
         "gitbook-plugin-signature": {
             "autoTimeStamp": {
@@ -53,6 +64,15 @@
             "signature": {
                 "cot": "Provide by icxhub"
             }
+        }
+    },
+    "pdf": {
+        "pageNumbers": true,
+        "margin": {
+            "right": 30,
+            "left": 30,
+            "top": 30,
+            "bottom": 50
         }
     }
 }
