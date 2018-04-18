@@ -1,10 +1,8 @@
 # IC 为何偏恋三十而立的Tcl
 
+![52HS9DF0](https://yb-img.oss-cn-shanghai.aliyuncs.com/badges/52HS9DF0K8FQK8FATRFMLISDTO1HT6XY6H9CZETZI8P281G6GG.png)
 
-![](https://yb-img.oss-cn-shanghai.aliyuncs.com/badges/52HS9DF0K8FQK8FATRFMLISDTO1HT6XY6H9CZETZI8P281G6GG.png)
-
-本文经「原本」原创认证，访问[yuanben.io](http://yuanben.io/)查询[【4WAIVGUZ】](https://yuanben.io/article/52HS9DF0K8FQK8FATRFMLISDTO1HT6XY6H9CZETZI8P281G6GG)获取授权信息。
-
+本文经「原本」原创认证，访问[yuanben.io](http://yuanben.io/)查询[【52HS9DF0】](https://yuanben.io/article/52HS9DF0K8FQK8FATRFMLISDTO1HT6XY6H9CZETZI8P281G6GG)获取授权信息。
 
 <!-- SteveB Checklist：
 1. 是否设计有互动环节（done）

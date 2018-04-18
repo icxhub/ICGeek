@@ -1,6 +1,6 @@
 # 开刊词
 
-![](https://yb-img.oss-cn-shanghai.aliyuncs.com/badges/4WAIVGUZXR441UZDOVWNMQVUFJSXJ4PD10CF65OEDZNWM2VRV4.png)
+![4WAIVGUZ](https://yb-img.oss-cn-shanghai.aliyuncs.com/badges/4WAIVGUZXR441UZDOVWNMQVUFJSXJ4PD10CF65OEDZNWM2VRV4.png)
 
 本文经「原本」原创认证，访问[yuanben.io](http://yuanben.io/)查询[【4WAIVGUZ】](https://yuanben.io/article/4WAIVGUZXR441UZDOVWNMQVUFJSXJ4PD10CF65OEDZNWM2VRV4)获取授权信息。
 
@@ -44,7 +44,7 @@
 
 成为技术管理者是大部分工程师职业规划中的一个『小目标』，怎样从职场小白攀爬到管理层？技术管理者需要具备怎样的核心能力？作为工程师如何向上管理？就此，希望可以提供一些思维模型和行动指南助你事半功倍。
 
-5. IC设计中观、微观与宏观 
+5. IC设计中观、微观与宏观
 
 抱着flow 刷脚本，一般出不了什么大乱子，不按规定来，芯片容易做成砖。这里的Flow 可以理解为套路，是一个中观的概念。但是，抱着Flow刷脚本是远远不够的，你需要对每个不同的case有微观认知，这才是长在你身上的know-how，是flow不可替代的。宏观是更高一级的抽象，作为一名IC工程师需要具备zoom in和zoom out的能力，要既能看到宏观又能深入微观，这才算具备了高效定位和解决问题的能力。这一模块会探讨如何在升级打怪中一步步地练出这个能力。
 
