@@ -1,6 +1,13 @@
 # 终于懂得IP 对于芯片如此珍贵，那么...
 
-![](../res/img/apple_equ.jpg)
+<!-- 原创认证 -->
+<img src="https://yb-img.oss-cn-shanghai.aliyuncs.com/badges/4B34TDULMV6O4WA0ON1XBMI68T1K8PS3OPND6WJU5FWE0NF4S1.png" style="float:right;">
+
+本文经「原本」原创认证，访问[yuanben.io](http://yuanben.io/)查询[【4B34TDUL】](https://yuanben.io/article/4B34TDULMV6O4WA0ON1XBMI68T1K8PS3OPND6WJU5FWE0NF4S1)获取授权信息。
+
+---
+
+![IC 极客](../res/img/apple_equ.jpg)
 
 ## 导读
 
