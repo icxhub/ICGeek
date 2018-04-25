@@ -10,3 +10,7 @@
 * [技术管理的核心能力]()
 * [IC设计中观、微观与宏观]()
 * [Lab](lab/intro.md)
+  * [Tcl Seminar Day 1](lab/1.1.1.md)
+  * [Tcl Seminar Day 2](lab/1.1.2.md)
+  * [Tcl Seminar Day 3](lab/1.1.3.md)
+  * [Tcl Seminar Day 4](lab/1.1.4.md)
