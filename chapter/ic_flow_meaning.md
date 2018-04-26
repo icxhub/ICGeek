@@ -1,5 +1,13 @@
 # “刷脚本” 的学术讨论
 
+
+<!-- 原创认证 -->
+<img src="https://yb-img.oss-cn-shanghai.aliyuncs.com/badges/5R9GIIKQVGY65I67QOX80FTKVVA0ZZX197Z0UFDJVDV69XVWIL.png" style="float:right;">
+
+本文经「原本」原创认证，访问[yuanben.io](http://yuanben.io/)查询[【5R9GIIKQ】](https://yuanben.io/article/5R9GIIKQVGY65I67QOX80FTKVVA0ZZX197Z0UFDJVDV69XVWIL)获取授权信息。
+
+---
+
 做为一个经历多年IC Tapeout 后转做的IC CAD 从业者，我想聊一聊“刷脚本”这件事，把它上升到理论的高度。
 
 ## “刷脚本” = “使用流程（Flow）”
