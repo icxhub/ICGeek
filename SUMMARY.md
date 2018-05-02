@@ -17,3 +17,4 @@
   * [Tcl Seminar Day 4](lab/1.1.4.md)
   * [Tcl Seminar Day 5](lab/1.1.5.md)
   * [Tcl Seminar Day 6](lab/1.1.6.md)
+  * [Tcl Seminar Day 7](lab/1.1.7.md)
