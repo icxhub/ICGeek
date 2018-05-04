@@ -1,7 +1,10 @@
 # IC 极客 - 不完全书单
 
-![eBook](../res/img/ebooks.jpg)
+![57APZNV1](https://yb-img.oss-cn-shanghai.aliyuncs.com/badges/57APZNV13OWTYEU4I5NM89II4FUIJ754DY3LI4LMIYBA374XG2.png)
 
+本文经「原本」原创认证，作者Steve Bee，访问yuanben.io查询【[57APZNV1](https://yuanben.io/article/57APZNV13OWTYEU4I5NM89II4FUIJ754DY3LI4LMIYBA374XG2)】获取授权信息。
+
+![eBook](../res/img/ebooks.jpg)
 
 五一假期 “IC 极客交流群” 中发起了大家对各自领域书籍的推荐，众人拾柴火焰高，总共整理了超过120 本领域书籍。感谢各位极友的推荐。
 
