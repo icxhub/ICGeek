@@ -1,0 +1,636 @@
+
+<!DOCTYPE HTML>
+<html lang="zh" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Tcl Seminar Day 1 · xHub</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="Steve Bee">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-yahei/yahei.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-katex/katex.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-navigator/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-youtubex/player.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-sectionx/sectionx.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-mcqx/mcqx.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fbqx/fbqx.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-ace/ace.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-spoiler/spoiler.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-local-video/video-js.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-image-captions/image-captions.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../styles/website.css">
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="1.1.2.html" />
+    
+    
+    <link rel="prev" href="intro.html" />
+    
+
+    </head>
+    <body>
+        
+  <script>
+    var tag = document.createElement('script');
+    tag.src = "https://www.youtube.com/iframe_api";
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+  </script>
+  
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="輸入並搜尋" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    关于本书
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../chapter/preface.html">
+            
+                <a href="../chapter/preface.html">
+            
+                    
+                    发刊词
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    编程@IC
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../chapter/ic_love_tcl.html">
+            
+                <a href="../chapter/ic_love_tcl.html">
+            
+                    
+                    IC 为何偏恋三十而立的Tcl
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    IC极客的技术雷达
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../chapter/ip_for_chip.html">
+            
+                <a href="../chapter/ip_for_chip.html">
+            
+                    
+                    终于懂得IP 对于芯片如此珍贵，那么...
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    流程构建的核心能力
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../chapter/ic_flow_meaning.html">
+            
+                <a href="../chapter/ic_flow_meaning.html">
+            
+                    
+                    “刷脚本” 的学术讨论
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <span>
+            
+                    
+                    技术管理的核心能力
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" >
+            
+                <span>
+            
+                    
+                    IC设计中观、微观与宏观
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="intro.html">
+            
+                <a href="intro.html">
+            
+                    
+                    Lab
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.8.1" data-path="1.1.1.html">
+            
+                <a href="1.1.1.html">
+            
+                    
+                    Tcl Seminar Day 1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="1.1.2.html">
+            
+                <a href="1.1.2.html">
+            
+                    
+                    Tcl Seminar Day 2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3" data-path="1.1.3.html">
+            
+                <a href="1.1.3.html">
+            
+                    
+                    Tcl Seminar Day 3
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.4" data-path="1.1.4.html">
+            
+                <a href="1.1.4.html">
+            
+                    
+                    Tcl Seminar Day 4
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.5" data-path="1.1.5.html">
+            
+                <a href="1.1.5.html">
+            
+                    
+                    Tcl Seminar Day 5
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.6" data-path="1.1.6.html">
+            
+                <a href="1.1.6.html">
+            
+                    
+                    Tcl Seminar Day 6
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.7" data-path="1.1.7.html">
+            
+                <a href="1.1.7.html">
+            
+                    
+                    Tcl Seminar Day 7
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" >
+            
+                <span>
+            
+                    
+                    [番外]
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../chapter/ic_booklist.html">
+            
+                <a href="../chapter/ic_booklist.html">
+            
+                    
+                    五一图书整理
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本書使用 GitBook 釋出
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Tcl Seminar Day 1</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="Tcl_Seminar:_&#x5B66;&#x4E60;Tcl_(Day_1)">Tcl Seminar: &#x5B66;&#x4E60;Tcl (Day 1)</h1>
+<p>&#x6211;&#x5728;&#x6587;&#x7AE0;&#x4E2D;&#x4E5F;&#x8BB2;&#x5230;&#x4E09;&#x4E2A;&#x7EA7;&#x522B;&#xFF0C;&#x5BF9;&#x4E8E;&#x4E00;&#x4E2A;&#x57FA;&#x672C;&#x5DE5;&#x5177;&#x800C;&#x8A00;&#xFF0C;&#x867D;&#x7136;&#x6CA1;&#x6709;&#x4EC0;&#x4E48;&#x6280;&#x672F;&#x542B;&#x91CF;&#xFF0C;&#x4F46;&#x53C8;&#x4E0D;&#x5F97;&#x4E0D;&#x53BB;&#x5B66;&#x4E60;&#x7684;&#x4E1C;&#x897F;&#xFF0C;&#x5927;&#x5BB6;&#x638C;&#x63E1;&#x7684;&#x7A0B;&#x5EA6;&#x5C31;&#x6709;&#x70B9;&#x5343;&#x5DEE;&#x4E07;&#x522B;&#x3002;</p>
+<h2 id="&#x521D;&#x5B66;&#x8005;">1. &#x521D;&#x5B66;&#x8005;</h2>
+<p>&#x6709;&#x4EBA;&#x5EFA;&#x8BAE;&#x53BB;&#x5B66;&#x522B;&#x4EBA;&#x7684;&#x603B;&#x7ED3;&#xFF0C;&#x6BD4;&#x5982;XX &#x5927;&#x725B;&#x7684;&#x6587;&#x6863;&#xFF0C;&#x8FD9;&#x4E5F;&#x4E0D;&#x5931;&#x4E3A;&#x4E00;&#x4E2A;&#x597D;&#x7684;&#x65B9;&#x6CD5;&#xFF0C;&#x5FEB;&#x901F;&#x7684;&#x65B9;&#x6CD5;&#x3002;</p>
+<p>&#x5F53;&#x521D;&#x6211;&#x4E5F;&#x662F;&#x4ECE;&#x4E00;&#x672C;24&#x5C0F;&#x65F6;&#x7CFB;&#x5217;&#x5B66;&#x8D77;&#x7684;&#xFF0C;&#x8FD9;&#x79CD;&#x7CFB;&#x5217;&#x80FD;&#x89E3;&#x51B3;&#x4F60;&#x7684;&#x8BED;&#x6CD5;&#x95EE;&#x9898;&#xFF0C;&#x5BF9;&#x8FD9;&#x7C7B;&#x4E66;&#x7684;&#x5B9A;&#x4F4D;&#x662F;&#x89E3;&#x51B3;&#x4F60;&#x7684;hello word &#x95EE;&#x9898;&#xFF0C;&#x65E0;&#x6CD5;&#x7ED9;&#x4F60;&#x5404;&#x79CD;&#x4E8B;&#x7269;&#x4E4B;&#x95F4;&#x7684;&#x8054;&#x7CFB;&#x3002;&#x5982;&#x679C;&#x82F1;&#x6587;&#x770B;&#x4E86;&#x72AF;&#x56F0;&#xFF0C;&#x53EF;&#x4EE5;&#x5148;&#x770B;&#x4E2D;&#x6587;&#xFF0C;&#x5728;&#x521D;&#x6B65;&#x5B9E;&#x8DF5;&#x4EE5;&#x540E;&#x518D;&#x628A;&#x82F1;&#x6587;&#x7248;&#x770B;&#x4E00;&#x904D;&#x3002;</p>
+<p>&#x5BF9;&#x4E8E;&#x5DE5;&#x5177;&#x7684;Commond &#x624B;&#x518C;&#xFF0C;&#x8981;&#x968F;&#x624B;&#x770B;&#xFF0C;&#x5C31;&#x50CF;&#x80CC;&#x5355;&#x8BCD;&#x4E00;&#x6837;&#xFF0C;&#x65F6;&#x4E0D;&#x65F6;&#x53BB;&#x7FFB;&#x7FFB;&#xFF0C;&#x5404;&#x5927;&#x516C;&#x53F8;&#x7684;&#x7528;&#x6237;&#x7F51;&#x7AD9;&#x4E0A;&#x4E5F;&#x4F1A;&#x6709;&#x5F88;&#x591A;&#x5185;&#x5BB9;&#xFF0C;&#x65F6;&#x4E0D;&#x65F6;&#x62FF;&#x4E9B;&#x4E0B;&#x6765;&#x6D88;&#x5316;&#x3002;</p>
+<h3 id="&#x7EC3;&#x4E60;">1.1. &#x7EC3;&#x4E60;</h3>
+<ol>
+<li><p>&#x9605;&#x8BFB;&#x82F1;&#x6587;&#x7248; Tcl &amp; Tk Toolkit &#x524D;N &#x7AE0;&#x3002;</p>
+</li>
+<li><p>&#x7528;Tcl &#x6570;&#x7EC4;&#x6784;&#x5EFA;&#x4E00;&#x4E2A;&#x6570;&#x636E;&#x96C6;&#xFF0C;&#x5148;&#x8BB0;&#x5F55;&#x5458;&#x5DE5;&#x7684;&#x4FE1;&#x606F;&#xFF0C;&#x7136;&#x540E;&#x7F16;&#x5199;&#x4E00;&#x4E2A;&#x7B80;&#x5355;&#x7684;&#x62BD;&#x5956;&#x7A0B;&#x5E8F;&#xFF0C;&#x6BCF;&#x6B21;&#x591A;&#x4E2A;&#x4EBA;&#x4E2D;&#x5956;&#xFF0C;&#x5982;&#x4F55;&#x4FDD;&#x8BC1;&#x4F60;&#x4E00;&#x5B9A;&#x5728;&#x5176;&#x4E2D;&#xFF1F;</p>
+</li>
+<li><p>&#x7528;Tcl &#x5B8C;&#x6210;&#x4E00;&#x4E2A;&#x623F;&#x8D37;&#x8FD8;&#x6B3E;&#x8BA1;&#x7B97;&#x5668;&#xFF0C;&#x8F93;&#x5165;&#x662F;&#x623F;&#x5B50;&#x4EF7;&#x503C;&#xFF0C;&#x8D37;&#x6B3E;&#x6BD4;&#x4F8B;&#xFF0C;&#x5E74;&#x9650;&#xFF0C;&#x501F;&#x8D37;&#x4EBA;&#x6536;&#x5165;&#x7B49;&#x7B49;&#xFF0C;&#x5224;&#x65AD;&#x80FD;&#x4E0D;&#x80FD;&#x7ED9;&#x501F;&#x8D37;&#x4EBA;&#x6279;&#x8D37;&#x6B3E;&#xFF0C;&#x5982;&#x679C;&#x53EF;&#x4EE5;&#x6BCF;&#x6708;&#x672C;&#x91D1;&#x5229;&#x606F;&#x5404;&#x5360;&#x591A;&#x5C11;&#xFF0C;&#x7ED9;&#x51FA;&#x5B8C;&#x6574;&#x7684;&#x5217;&#x8868;&#x3002;</p>
+</li>
+</ol>
+<h2 id="&#x975E;&#x521D;&#x7EA7;">2. &#x975E;&#x521D;&#x7EA7;</h2>
+<p>&#x5BF9;&#x4E8E;Tcl&#xFF0C;&#x6216;&#x8BB8;&#x4F60;&#x5DF2;&#x7ECF;&#x8FD0;&#x7528;&#x5F88;&#x719F;&#x4E86;&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x8BA8;&#x8BBA;&#x4E00;&#x4E2A;&#x8BDD;&#x9898;&#xFF0C;&#x6709;&#x4EBA;&#x63D0;&#x5230;trace &#x5F88;&#x6709;&#x7528;&#x3002;&#x7684;&#x786E;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x505A;&#x5F88;&#x591A;&#x4E8B;&#x60C5;&#x7528;trace&#x3002;</p>
+<h3 id="&#x7EC3;&#x4E60;">2.1. &#x7EC3;&#x4E60;</h3>
+<ol>
+<li><p>&#x5229;&#x7528;trace &#x7F16;&#x5199;&#x4E00;&#x4E2A;&#x5BF9;&#x7528;&#x6237;&#x6765;&#x8BF4;&#x662F;readonly &#x7684;&#x53D8;&#x91CF;&#x3002;</p>
+</li>
+<li><p>&#x5229;&#x7528;trace &#x8DDF;&#x8E2A;&#x7528;&#x6237;&#xFF0C;&#x5982;&#x679C;&#x9000;&#x51FA;Tclsh&#xFF08;exit&#xFF09;&#xFF0C;&#x81EA;&#x52A8;&#x6E05;&#x7406;&#x5F53;&#x524D;&#x76EE;&#x5F55;&#x5185;&#x7684;tmp &#x6587;&#x4EF6;&#x5939;&#x3002;</p>
+</li>
+</ol>
+<div id="anchors-navbar"><i class="fa fa-anchor"></i><ul><p><a href="#Tcl_Seminar:_&#x5B66;&#x4E60;Tcl_(Day_1)">Tcl Seminar: &#x5B66;&#x4E60;Tcl (Day 1)</a></p><li><a href="#&#x521D;&#x5B66;&#x8005;">1. &#x521D;&#x5B66;&#x8005;</a></li><ul><li><a href="#&#x7EC3;&#x4E60;">1.1. &#x7EC3;&#x4E60;</a></li></ul><li><a href="#&#x975E;&#x521D;&#x7EA7;">2. &#x975E;&#x521D;&#x7EA7;</a></li><ul><li><a href="#&#x7EC3;&#x4E60;">2.1. &#x7EC3;&#x4E60;</a></li></ul></ul></div><a href="#&#x521D;&#x5B66;&#x8005;" id="goTop"><i class="fa fa-arrow-up"></i></a>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="intro.html" class="navigation navigation-prev " aria-label="Previous page: Lab">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="1.1.2.html" class="navigation navigation-next " aria-label="Next page: Tcl Seminar Day 2">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Tcl Seminar Day 1","level":"1.8.1","depth":2,"next":{"title":"Tcl Seminar Day 2","level":"1.8.2","depth":2,"path":"lab/1.1.2.md","ref":"lab/1.1.2.md","articles":[]},"previous":{"title":"Lab","level":"1.8","depth":1,"path":"lab/intro.md","ref":"lab/intro.md","articles":[{"title":"Tcl Seminar Day 1","level":"1.8.1","depth":2,"path":"lab/1.1.1.md","ref":"lab/1.1.1.md","articles":[]},{"title":"Tcl Seminar Day 2","level":"1.8.2","depth":2,"path":"lab/1.1.2.md","ref":"lab/1.1.2.md","articles":[]},{"title":"Tcl Seminar Day 3","level":"1.8.3","depth":2,"path":"lab/1.1.3.md","ref":"lab/1.1.3.md","articles":[]},{"title":"Tcl Seminar Day 4","level":"1.8.4","depth":2,"path":"lab/1.1.4.md","ref":"lab/1.1.4.md","articles":[]},{"title":"Tcl Seminar Day 5","level":"1.8.5","depth":2,"path":"lab/1.1.5.md","ref":"lab/1.1.5.md","articles":[]},{"title":"Tcl Seminar Day 6","level":"1.8.6","depth":2,"path":"lab/1.1.6.md","ref":"lab/1.1.6.md","articles":[]},{"title":"Tcl Seminar Day 7","level":"1.8.7","depth":2,"path":"lab/1.1.7.md","ref":"lab/1.1.7.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["yahei","katex","-sharing","custom-favicon","-signature","-fontsettings","theme-default","-anchor-navigation-ex","expandable-chapters","navigator","youtubex","sectionx","mcqx","fbqx","ace","spoiler","flowchart","layout","local-video","mermaid","image-captions","mermaid","hide-published-with"],"styles":{"website":"./styles/website.css","pdf":"./styles/pdf.css"},"pluginsConfig":{"spoiler":{},"ace":{},"fbqx":{},"yahei":{},"search":{},"mermaid":{},"layout":{"headerPath":"./res/header.html","footerPath":"./res/footer.html"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"link-fixer":{"link":"http://icxhub.com/"},"gitbook-plugin-signature":{"autoTimeStamp":{"color":"gray","timeStampFormat":"MM/DD/YYYY HH:mm:ss"},"autoCopyright":{"color":"gray","owner":"<a href='http://icxhub.com' target='_blank'>xHub</a>","center":true},"signature":{"cot":"Provide by icxhub"}},"hide-published-with":{},"flowchart":{},"katex":{},"sectionx":{},"highlight":{},"favicon":"./res/chip_cot.ico","youtubex":{"embedDescription":{"de":"Eingebettetes Video:","default":"Embedded video:"}},"navigator":{},"custom-favicon":{},"local-video":{},"mcqx":{},"theme-default":{"showLevel":false,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"}},"expandable-chapters":{},"image-captions":{"caption":"_PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","images":{"1.2.1":{"skip":true},"1.3.1.1":{"skip":true}},"variable_name":"_pictures"}},"theme":"default","author":"Steve Bee","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":30,"left":30,"top":30,"bottom":50}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"_pictures":[{"backlink":"./chapter/preface.html#fig1.2.1","level":"1.2","list_caption":"Figure: 扫码进群","alt":"扫码进群","nro":1,"url":"../res/img/wechat_group_qrcode.png","index":1,"caption_template":"_PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"扫码进群","attributes":{},"skip":true,"key":"1.2.1"},{"backlink":"./chapter/preface.html#fig1.2.2","level":"1.2","list_caption":"Figure: 加好友","alt":"加好友","nro":2,"url":"../res/img/wechat_sgsphoto.jpg","index":2,"caption_template":"_PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"加好友","attributes":{},"skip":false,"key":"1.2.2"},{"backlink":"./chapter/ic_love_tcl.html#fig1.3.1.1","level":"1.3.1","list_caption":"Figure: Tcl Structure， 基于 “参考2” 重画","alt":"Tcl Structure， 基于 “参考2” 重画","nro":3,"url":"../res/img/tcl_structure.png","index":1,"caption_template":"_PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"Tcl Structure， 基于 “参考2” 重画","attributes":{},"skip":true,"key":"1.3.1.1"},{"backlink":"./chapter/ic_love_tcl.html#fig1.3.1.2","level":"1.3.1","list_caption":"Figure: Programming Languages","alt":"Programming Languages","nro":4,"url":"../res/img/programminglanguages.png","index":2,"caption_template":"_PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"Programming Languages","attributes":{},"skip":false,"key":"1.3.1.2"},{"backlink":"./chapter/ic_love_tcl.html#fig1.3.1.3","level":"1.3.1","list_caption":"Figure: 3 Levels","alt":"3 Levels","nro":5,"url":"../res/img/3levels.png","index":3,"caption_template":"_PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"3 Levels","attributes":{},"skip":false,"key":"1.3.1.3"},{"backlink":"./chapter/ic_love_tcl.html#fig1.3.1.4","level":"1.3.1","list_caption":"Figure: Tcl System","alt":"Tcl System","nro":6,"url":"../res/img/cad_sys.png","index":4,"caption_template":"_PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"Tcl System","attributes":{},"skip":false,"key":"1.3.1.4"},{"backlink":"./chapter/ic_love_tcl.html#fig1.3.1.5","level":"1.3.1","list_caption":"Figure: TKSqlite","alt":"TKSqlite","nro":7,"url":"../res/img/tksqlite.png","index":5,"caption_template":"_PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"TKSqlite","attributes":{},"skip":false,"key":"1.3.1.5"},{"backlink":"./chapter/ic_love_tcl.html#fig1.3.1.6","level":"1.3.1","list_caption":"Figure: tkinspect","alt":"tkinspect","nro":8,"url":"../res/img/tkinspect.png","index":6,"caption_template":"_PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"tkinspect","attributes":{},"skip":false,"key":"1.3.1.6"},{"backlink":"./chapter/ip_for_chip.html#fig1.4.1.1","level":"1.4.1","list_caption":"Figure: IC 极客","alt":"IC 极客","nro":9,"url":"../res/img/apple_equ.jpg","index":1,"caption_template":"_PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"IC 极客","attributes":{},"skip":false,"key":"1.4.1.1"},{"backlink":"./chapter/ip_for_chip.html#fig1.4.1.2","level":"1.4.1","list_caption":"Figure: 入群","alt":"入群","nro":10,"url":"../res/img/wechat_sgsphoto.jpg","index":2,"caption_template":"_PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"入群","attributes":{},"skip":false,"key":"1.4.1.2"},{"backlink":"./chapter/ic_flow_meaning.html#fig1.5.1.1","level":"1.5.1","list_caption":"Figure: Flow","alt":"Flow","nro":11,"url":"../res/img/movement.jpg","index":1,"caption_template":"_PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"Flow","attributes":{},"skip":false,"key":"1.5.1.1"},{"backlink":"./chapter/ic_flow_meaning.html#fig1.5.1.2","level":"1.5.1","list_caption":"Figure: Connection","alt":"Connection","nro":12,"url":"../res/img/connection.jpg","index":2,"caption_template":"_PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"Connection","attributes":{},"skip":false,"key":"1.5.1.2"},{"backlink":"./chapter/ic_flow_meaning.html#fig1.5.1.3","level":"1.5.1","list_caption":"Figure: Logistics","alt":"Logistics","nro":13,"url":"../res/img/logistics.jpg","index":3,"caption_template":"_PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"Logistics","attributes":{},"skip":false,"key":"1.5.1.3"},{"backlink":"./chapter/ic_flow_meaning.html#fig1.5.1.4","level":"1.5.1","list_caption":"Figure: Business","alt":"Business","nro":14,"url":"../res/img/business.jpg","index":4,"caption_template":"_PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"Business","attributes":{},"skip":false,"key":"1.5.1.4"},{"backlink":"./chapter/ic_flow_meaning.html#fig1.5.1.5","level":"1.5.1","list_caption":"Figure: 入群","alt":"入群","nro":15,"url":"../res/img/wechat_sgsphoto.jpg","index":5,"caption_template":"_PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"入群","attributes":{},"skip":false,"key":"1.5.1.5"},{"backlink":"./chapter/ic_booklist.html#fig1.9.1.1","level":"1.9.1","list_caption":"Figure: VLSI Test Principles and Architectures: Design for Testability","alt":"VLSI Test Principles and Architectures: Design for Testability","nro":16,"url":"https://images.gr-assets.com/books/1348433990s/941344.jpg","index":1,"caption_template":"_PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"VLSI Test Principles and Architectures: Design for Testability","attributes":{},"skip":false,"key":"1.9.1.1"},{"backlink":"./chapter/ic_booklist.html#fig1.9.1.2","level":"1.9.1","list_caption":"Figure: Constraining Designs for Synthesis and Timing Analysis: A Practical Guide to Synopsys Design Constraints","alt":"Constraining Designs for Synthesis and Timing Analysis: A Practical Guide to Synopsys Design Constraints","nro":17,"url":"https://images.gr-assets.com/books/1368426019s/17123864.jpg","index":2,"caption_template":"_PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"Constraining Designs for Synthesis and Timing Analysis: A Practical Guide to Synopsys Design Constraints","attributes":{},"skip":false,"key":"1.9.1.2"},{"backlink":"./chapter/ic_booklist.html#fig1.9.1.3","level":"1.9.1","list_caption":"Figure: System-On-Chip Test Architectures: Nanometer Design for Testability","alt":"System-On-Chip Test Architectures: Nanometer Design for Testability","nro":18,"url":"https://images.gr-assets.com/books/1355827592s/16383842.jpg","index":3,"caption_template":"_PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"System-On-Chip Test Architectures: Nanometer Design for Testability","attributes":{},"skip":false,"key":"1.9.1.3"},{"backlink":"./chapter/ic_booklist.html#fig1.9.1.4","level":"1.9.1","list_caption":"Figure: Tmux: Productive Mouse-Free Development","alt":"Tmux: Productive Mouse-Free Development","nro":19,"url":"https://images.gr-assets.com/books/1330628877s/13506825.jpg","index":4,"caption_template":"_PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"Tmux: Productive Mouse-Free Development","attributes":{},"skip":false,"key":"1.9.1.4"},{"backlink":"./chapter/ic_booklist.html#fig1.9.1.5","level":"1.9.1","list_caption":"Figure: Static Timing Analysis for Nanometer Designs: A Practical Approach","alt":"Static Timing Analysis for Nanometer Designs: A Practical Approach","nro":20,"url":"https://images.gr-assets.com/books/1400847199s/14363689.jpg","index":5,"caption_template":"_PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"Static Timing Analysis for Nanometer Designs: A Practical Approach","attributes":{},"skip":false,"key":"1.9.1.5"},{"backlink":"./chapter/ic_booklist.html#fig1.9.1.6","level":"1.9.1","list_caption":"Figure: goodreads.com","alt":"goodreads.com","nro":21,"url":"https://www.goodreads.com/images/widget/widget_logo.gif","index":6,"caption_template":"_PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"goodreads.com","attributes":{},"skip":false,"key":"1.9.1.6"}]},"title":"xHub","language":"zh","gitbook":"*"},"file":{"path":"lab/1.1.1.md","mtime":"2018-04-20T21:05:24.892Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-05-04T17:40:06.664Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-youtubex/player.js"></script>
+        
+    
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sectionx/sectionx.js"></script>
+        
+    
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-mcqx/js.cookie.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-mcqx/mcqx.js"></script>
+        
+    
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fbqx/fbqx.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-ace/ace/ace.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-ace/ace.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-spoiler/spoiler.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-local-video/video.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-hide-published-with/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+
+    </body>
+</html>
+
