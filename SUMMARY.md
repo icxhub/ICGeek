@@ -8,6 +8,7 @@
   * [终于懂得IP 对于芯片如此珍贵，那么...](./chapter/ip_for_chip.md)
 * [流程构建的核心能力]()
   * [“刷脚本” 的学术讨论](./chapter/ic_flow_meaning.md)
+  * [漫步云端的EDA](./chapter/eda_in_the_cloud.md)
 * [技术管理的核心能力]()
 * [IC设计中观、微观与宏观]()
 * [Lab](lab/intro.md)
