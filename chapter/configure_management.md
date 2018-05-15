@@ -2,6 +2,10 @@
 
 ![Picture](../res/img/subject_conf.jpg)
 
+<img src="https://yb-img.oss-cn-shanghai.aliyuncs.com/badges/1OPU74RVIRAYRS2VHT50ZXK2IQXX41FMTBSMS353KAP34OM0SG.png" style="float:right;">
+
+本文经「原本」原创认证，作者Steve Bee，访问yuanben.io查询【[1OPU74RV](https://yuanben.io/article/1OPU74RVIRAYRS2VHT50ZXK2IQXX41FMTBSMS353KAP34OM0SG)】获取授权信息。
+
 ## 引导语
 
 Alice 在IC 极客群里谈到了配置管理，那我也来谈一谈。配置的设计更多的是再软件的管理和使用中被提及，而IC 流程中，配置也是需要的，但是上升到配置管理很多时候并不是那么被人看好，但是配置管理可以帮助你提高效率，减少交流误差，自动化流程，内容驱动管理等等。
