@@ -137,7 +137,7 @@
 ### Q11- 有谁现在用Mentor redundancy repair flow?
 
 - 我司在用
-- 也插播一个问题，请教下，现在大家memory repair用的多吗，一般有啥原则？比如多大的memory要做，或者需要做到啥程度?```chip规模大的，工艺先进的良率不高的，一般都要ram repair``` 
+- 也插播一个问题，请教下，现在大家memory repair用的多吗，一般有啥原则？比如多大的memory要做，或者需要做到啥程度? ```chip规模大的，工艺先进的良率不高的，一般都要ram repair```
 - 有什么自动repair的算法？```bist 内置bira可以根据memory redundant信息和出错位置计算出是否可以repair和怎么repair, 看你用怎么样的带repair的ram，行优先列优先，repair算法相对比较固定的,一般是读写不同时钟域的，连一个快速时钟，减少 bist controller数量```
 
 - repair需要的efuse bits一般怎么算呢？```bist engine自动算好压缩加烧fuse 这个要做了才知道，如果一开始算面积要知道的话，有公式吗？```
