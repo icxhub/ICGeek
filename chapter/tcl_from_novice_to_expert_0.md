@@ -129,8 +129,7 @@ foreach itm $allitem {
 本群由IC 行业的几位工程师发起，以公益，开源，分享为宗旨，致力于推广 IC 极客文化，组织大家深入交流IC 设计领域知识，经验及方法学，打造 IC 设计圈的思想国。
 
 群也欢迎群友或 IC 极客玩家随机发起不固定主题的讨论。欢迎联系文末的微信号小主入群参与分享交流。
-
-![入群](../res/img/wechat_sgsphoto.jpg)
+![入群](../res/img/group_invitation.png)
 
 ## 支持 （Donate）
 

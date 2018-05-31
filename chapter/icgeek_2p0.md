@@ -61,7 +61,7 @@
 
 加 sgsphoto 为好友，入 IC 极客 交流群。
 
-![Wechat](../res/img/wechat_sgsphoto.jpg)
+![Wechat](../res/img/group_invitation.png)
 
 ![Wechat gongzhonghao](../res/img/icgeek_xuanchuang.png)
 
