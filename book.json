@@ -32,6 +32,11 @@
         "hide-published-with"
     ],
     "pluginsConfig": {
+        "fontSettings": {
+            "theme": "white",
+            "family": "Microsoft Yahei",
+            "size": 2
+        },
         "link-fixer": {
             "link": "http://icxhub.com/"
         },
@@ -68,11 +73,12 @@
     },
     "pdf": {
         "pageNumbers": true,
+        "fontSize": 20,
         "margin": {
-            "right": 30,
-            "left": 30,
-            "top": 30,
-            "bottom": 50
+            "right": 15,
+            "left": 15,
+            "top": 15,
+            "bottom": 30
         }
     }
 }
