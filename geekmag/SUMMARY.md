@@ -1,0 +1,23 @@
+# Summary
+
+* [声明](../README.md)
+* [发刊词](preface.md)
+* [编程@IC]()
+  * [IC 为何偏恋三十而立的Tcl](ic_love_tcl.md)
+* [IC极客的技术雷达]()
+  * [终于懂得IP 对于芯片如此珍贵，那么...](ip_for_chip.md)
+* [流程构建的核心能力]()
+  * [“刷脚本” 的学术讨论](ic_flow_meaning.md)
+  * [漫步云端的EDA](eda_in_the_cloud.md)
+* [技术管理的核心能力]()
+* [IC设计中观、微观与宏观]()
+* [Lab](../lab/intro.md)
+  * [Tcl Seminar Day 1](../lab/1.1.1.md)
+  * [Tcl Seminar Day 2](../lab/1.1.2.md)
+  * [Tcl Seminar Day 3](../lab/1.1.3.md)
+  * [Tcl Seminar Day 4](../lab/1.1.4.md)
+  * [Tcl Seminar Day 5](../lab/1.1.5.md)
+  * [Tcl Seminar Day 6](../lab/1.1.6.md)
+  * [Tcl Seminar Day 7](../lab/1.1.7.md)
+* [番外]
+  * [五一图书整理](ic_booklist.md)

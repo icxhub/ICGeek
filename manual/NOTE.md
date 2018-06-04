@@ -23,7 +23,7 @@
 
 加入社群及合作联系：
 
-![wechat](./res/img/wechat_sgsphoto.jpg)
+![wechat](./img/wechat_sgsphoto.jpg)
 
 ## 成书使用的开源工具
 

@@ -21,6 +21,7 @@ vendor
 .vscode
 *.cmd
 *.sh
+# .markdownlint.json
 
 ## ignore reference
 res/ref
