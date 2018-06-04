@@ -1,6 +1,6 @@
 # Summary
 
-* [声明](../README.md)
+* [声明](NOTE.md)
 * [关于本书](README.md)
 * [IC 极客愿景](task.md)
 * [IC 极客用户画像](user.md)
