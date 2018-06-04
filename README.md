@@ -9,6 +9,7 @@
 已接入 "[原本链](https://yuanbenlian.com/)" 原创认证。
 
 ---
+<!--
 
 技术服务支持：
 
@@ -18,6 +19,11 @@
 
 - Email: sale@icxhub.com
 - Wechat: sgsphoto
+-->
+
+加入社群及合作联系：
+
+![wechat](./res/img/wechat_sgsphoto.jpg)
 
 ## 成书使用的开源工具
 

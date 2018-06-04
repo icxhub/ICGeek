@@ -1,5 +1,7 @@
 # IC 类常用网站及网上学习资料
 
+![Zhangjiang](../res/img/zhangjiang.jpg)
+
 ## 常用网站推荐
 
 - http://bbs.eetop.cn/
@@ -38,3 +40,14 @@
 - [verilog 开源项目](https://mp.weixin.qq.com/s/JxjnpR0CYGHH_99lqhEe-A)
 - [开源工艺库nangate](http://www.nangate.com/?page_id=2328)
 - Verilog simulation and synthesis tool http://iverilog.icarus.com/
+
+## 加入 IC 极客群
+
+本群由IC 行业的几位工程师发起，以公益，开源，分享为宗旨，致力于推广 IC 极客文化，组织大家深入交流IC 设计领域知识，经验及方法学，打造 IC 设计圈的思想国。
+
+群也欢迎群友或 IC 极客玩家随机发起不固定主题的讨论。欢迎联系文末的微信号小主入群参与分享交流。
+![入群](../res/img/group_invitation.png)
+
+## 支持 （Donate）
+
+![Donate](../res/img/support_icgeek.jpg)
