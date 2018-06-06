@@ -30,8 +30,9 @@
 - 整片篇幅阅读时间控制在10分钟，写完最好自己计时试读，有些内容不要舍不得砍，过而不及
 - 不宜使用大段的黑体
 - 文章段落与段落这件留有空隙，做好过度
-- 题图尽量选用横向图，宽长比为3:2，最小宽度为600px
-- 另外准备一张5:4 的小截图，用于偏正方形的场合
+- 题图尽量选用横向图，宽长比为16:9(首篇推送要求)，最小宽度为600px
+- 另外准备一张5:4 的小截图，用于偏正方形的场合，次篇文章宽长比为1:1
+- 文内图不宜过长，不宜超过每屏阅读的50%，控制在1/3 或者更小
 - 使用高亮划重点如果有的话
 - 按照逻辑排列文章内容，明显过度的地方用separator 隔开
 - 文末加IC 极客群推广和支持（Donate） 图片
@@ -40,16 +41,6 @@
 - 加入往期链接做为相关内容，往期回顾
 
 
-文字内容类型分为如下几种：
-
-- 人物访谈 (**PI** - People Interview)
-- 技术分享 (**TS** - Technical Sharing)
-  - 连载课程 (**CS** - Course Serious)
-  - 单点讨论 (**TD** - Topic Discussion)
-  - 群聊整理 (**GD** - Group Discussion)
-  - 内容推广 (**CP** - Content Promotion)
-  - 多媒体文字化 (**MT** - Multimedia Text)
-- 外文翻译 (**ET** - English Translation)
 
 ## 选题
 
@@ -70,6 +61,18 @@
   - 看一个电影
 - 奖品与福利
 - 商业赞助
+
+### 文字内容类型分为如下几种：
+
+- 人物访谈 (**PI** - People Interview)
+- 技术分享 (**TS** - Technical Sharing)
+  - 连载课程 (**CS** - Course Serious)
+  - 单点讨论 (**TD** - Topic Discussion)
+  - 群聊整理 (**GD** - Group Discussion)
+  - 内容推广 (**CP** - Content Promotion)
+  - 多媒体文字化 (**MT** - Multimedia Text)
+- 外文翻译 (**ET** - English Translation)
+
 
 ## 配图
 
