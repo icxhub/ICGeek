@@ -1,4 +1,4 @@
-# Tcl/Tk - 在实践中由浅入深
+# Tcl/Tk From Novice to Expert
 
 Tcl/Tk - From Novice to Expert
 
