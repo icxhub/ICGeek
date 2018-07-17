@@ -12,6 +12,8 @@ Tcl 小课堂今天来点实在的，怎么在一篇文章里教会你用 Tcl，
 
 ## Tcl 学习教材
 
+![tcltk](../res/img/tcltk.jpg)
+
 * 英文名：Tcl and the Tk Toolkit (2nd Edition)
 * 中文名：Tcl/Tk入门经典（第2版）
 * 作者：John K. Ousterhout, Ken Jones
@@ -251,3 +253,4 @@ proc p1 {{x 1}} {
   }
 }
 p1
+```
