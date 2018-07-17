@@ -1,6 +1,12 @@
 # 从 DAC 2018 看 IC 设计前景
 
-早晨做 DAC 的 Business Bus 到 DAC 会场，为了赶 Keynote，我选了 7 点出发的班车，一路往 SF 开，早晨的 SF 和太平洋都被一层层雾气和一层层云朵遮罩着。第一天的内容对我吸引力不是很大，Keynote 请的是 Amazon 的一个云负责人，Dr. Sarah Cooper （is AWS’s GM of IoT Analytics and Applications），讲的是 LIVING PRODUCTS: BUILDING CONNECTED DEVICES THAT LEARN AND EVOLVE。我会另起一篇文章谈谈听后的感受，但是我觉得今天的内容广告成分多于行业分析，更期待第二和第三天的精彩演讲。
+早晨做 DAC 的 Business Bus 到 DAC 会场，为了赶 Keynote，我选了 7 点出发的班车，一路往 SF 开，早晨的 SF 和太平洋都被一层层雾气和一层层云朵遮罩着。
+
+![Dac New](../res/img/dac_d1_1.jpg)
+
+第一天的内容对我吸引力不是很大，Keynote 请的是 Amazon 的一个云负责人，Dr. Sarah Cooper （is AWS’s GM of IoT Analytics and Applications），讲的是 LIVING PRODUCTS: BUILDING CONNECTED DEVICES THAT LEARN AND EVOLVE。我会另起一篇文章谈谈听后的感受，但是我觉得今天的内容广告成分多于行业分析，更期待第二和第三天的精彩演讲。
+
+![Dac New](../res/img/dac_d1_2.jpg)
 
 ## 中国人才与市场兼备
 
@@ -20,11 +26,15 @@
 
 这个还是有点东西可以去聊的，比如OpenAccess 的好处，以及使用图数据库的优点，如何整合信息，更好的使用信息。信息需要表达，如果不表达，那么信息就是去了应该有的价值。
 
+![Dac New](../res/img/dac_d1_3.jpg)
+
 我更期待接下来两天有来自google 等建立云服务的公司的演讲。
 
 ## 3D-IC
 
 在TSMC 的演讲中，多次提到3D-IC 以及其与各大EDA 公司合作的workflow，主要围绕如何解决流程中各种效应的检查，对于 3D-IC，之前在CLock 讨论的时候我提出过一个问题，后续或许可以做更多得讨论和分享。
+
+![Dac New](../res/img/dac_d1_4.jpg)
 
 ## 并行计算
 
